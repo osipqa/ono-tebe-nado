@@ -1,2 +1,2 @@
-# ono-tebe-nado 
+# ono-tebe-nado
 https://github.com/osipqa/ono-tebe-nado
