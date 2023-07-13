@@ -171,22 +171,28 @@ a {
 }
 
 .card_type_book {
-
+  background-image: url(../images/card-lot-02.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .card_type_picture {
-  
+  background-image: url(../images/card-lot-03.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .card {
   position: relative;
   height: 100%;
+  width: 100%;
   padding: 50px 40px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   gap: 30px;
-  min-height: 450px;
+  max-height: 450px;
+  max-width: 430px;
 }
 
 .card__link {
@@ -212,10 +218,100 @@ a {
   text-decoration-line: underline;
 }
 
+.lots__look-more-link {
+  display: block;
+  color: #000;
+  font-size: 20px;
+  margin: 30px 0 0 40px;
+  width: fit-content;
+}
+
 .about {
-  
+  display: grid;
+  padding-top: 182px;
+  padding-left: 145px;
+  padding-right: 50px;
+  padding-bottom: 0;
+}
+
+.about__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 240px;
+  margin-right: 120px;
+  height: 240px;
+  border-radius: 50%;
+  background-color: #000;
+}
+
+.about__column {
+  justify-self: center;
+}
+
+.about__title {
+  color: #000;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1;
+  padding: 104px 0;
+  text-transform: uppercase;
+}
+
+.about__text-column {
+  grid-column: 2/4;
+}
+
+.about__text {
+  display: grid;
+  gap: 24.5px;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.about__image-logo {
+  width: 148px;
 }
 
 .footer {
-  
+  padding: 180px 50px 90px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__adress {
+  font-size: 18px;
+  line-height: 1.35;
+  justify-self: start;
+}
+
+.footer__menu {
+  display: flex;
+  color: #000;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.footer__menu-list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  text-align: center;
+}
+
+.footer__social-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.footer__menu-list .footer__link_active {
+  border-bottom: none;
+}
+
+.footer_social-link-icon {
+  display: block;
+  width: auto;
+  height: 48px;
 }
