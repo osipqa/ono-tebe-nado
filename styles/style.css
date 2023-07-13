@@ -15,7 +15,7 @@ a {
 }
 
 .header {
-  padding: 92px 52px 99px;
+  padding: 92px 52px 93px;
   display: grid;
   grid-template-columns: 1.5fr 2fr 1.5fr;
   align-items: center;
@@ -59,11 +59,157 @@ a {
 }
 
 .cover {
-  
+  padding: 165px 50px 50px 50px;
+  position: relative;
+  background-image: url(../images/cover.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cover__title {
+  color: #fff;
+  line-height: 1.15;
+  font-size: 100px;
+  letter-spacing: 30px;
+  font-weight: bold;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-transform: uppercase;
+}
+
+.cover__background-opacity {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.6;
+  background-color: #000;
+}
+
+
+.accent-span {
+  display: block;
+}
+
+.text-center {
+  text-align: center;
+  line-height: 1;
+}
+
+.text-right {
+  text-align: right;
+  line-height: 1;
+}
+
+.text-spacing {
+  letter-spacing: 60px;
+  line-height: 1;
+}
+
+.text-no-spacing {
+  letter-spacing: normal;
+}
+
+.cover__description {
+  padding-top: 135px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  position: relative;
+  z-index: 1;
+  gap: 78px;
+}
+
+.cover__description-text {
+  font-size: 22px;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 1.27;
+  word-spacing: 18.55px;
+}
+
+.cover__bet-button {
+  background-color: transparent;
+  border: 1px solid #fff;
+  padding: 13.5px 32px;
+  color: #fff;
+  line-height: 1;
+  cursor: pointer;
+  font-size: 22px;
+  color: #fff;
+  font-weight: normal;
+  text-transform: uppercase;
 }
 
 .lots {
+  padding: 0 50px;
+}
+
+.lots__heading {
+  padding: 180px 0px 27px 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+.lots__card-list {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  list-style: none;
+}
+
+.card_type_film {
+  background-image: url(../images/card-lot-01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card_type_book {
+
+}
+
+.card_type_picture {
   
+}
+
+.card {
+  position: relative;
+  height: 100%;
+  padding: 50px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px;
+  min-height: 450px;
+}
+
+.card__link {
+  display: block;
+}
+
+.card__text {
+  position: relative;
+  z-index: 1;
+  color: #FFF;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.card__title {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 1.2;
+  text-transform: uppercase;
+  text-decoration-line: underline;
 }
 
 .about {
