@@ -14,6 +14,20 @@ a {
   border-bottom: 1px solid;
 }
 
+a:hover {
+  color: #2E9AFF;
+  transition: color 0.1s linear;
+}
+
+button {
+  transition: 0.3s;
+}
+
+button:hover {
+  color: #000;
+  background-color: #FFF;
+}
+
 .header {
   padding: 92px 52px 93px;
   display: grid;
@@ -147,6 +161,8 @@ a {
 
 .lots {
   padding: 0 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .lots__heading {
@@ -165,20 +181,15 @@ a {
 
 .card_type_film {
   background-image: url(../images/card-lot-01.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .card_type_book {
   background-image: url(../images/card-lot-02.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .card_type_picture {
   background-image: url(../images/card-lot-03.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+
 }
 
 .card {
