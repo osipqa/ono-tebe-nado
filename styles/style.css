@@ -19,6 +19,7 @@ a:hover {
   font-size: 20px;
   font-weight: 400;
   text-underline-offset: 4px;
+  margin: 0 auto;
 }
 
 .header {
@@ -82,7 +83,6 @@ a:hover {
   color: #fff;
   font-weight: 700;
   line-height: 100px;
-  line-height: 1.15;
   font-size: 100px;
   text-transform: uppercase;
   letter-spacing: 30px;
@@ -223,7 +223,7 @@ a:hover {
 
 .about {
   display: grid;
-  padding: 181px 24px 0 71px; 
+  padding: 181px 24px 0 71px;
 }
 
 .about__logo {
